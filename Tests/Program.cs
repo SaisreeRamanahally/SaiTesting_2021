@@ -16,6 +16,8 @@ namespace Testing2021
             [SetUp]
             public void LoginSteps()
             {
+
+            // chrome driver
             driver = new ChromeDriver("c:/Saisree/Testing/Code/Testing2021/Testing2021/");
             LoginPage loginObj = new LoginPage();
             loginObj.LoginActions(driver);
